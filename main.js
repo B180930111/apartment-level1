@@ -39,36 +39,186 @@ var about28 = document.getElementById("about28");
 var about29 = document.getElementById("about29");
 
 function ButtonBg() {
-  document.getElementById("about").style.background = "#c9302c";
-  document.getElementById("about1").style.background = "#337ab7";
-  document.getElementById("about2").style.background = "#c9302c";
-  document.getElementById("about3").style.background = "#ffd700";
-  document.getElementById("about4").style.background = "#c9302c";
-  document.getElementById("about5").style.background = "#337ab7";
-  document.getElementById("about6").style.background = "#c9302c";
-  document.getElementById("about7").style.background = "#ffd700";
-  document.getElementById("about8").style.background = "#c9302c";
-  document.getElementById("about9").style.background = "#337ab7";
-  document.getElementById("about10").style.background = "#c9302c";
-  document.getElementById("about11").style.background = "#337ab7";
-  document.getElementById("about12").style.background = "#c9302c";
-  document.getElementById("about13").style.background = "#ffd700";
-  document.getElementById("about14").style.background = "#c9302c";
-  document.getElementById("about15").style.background = "#ffd700";
-  document.getElementById("about16").style.background = "#c9302c";
-  document.getElementById("about17").style.background = "#ffd700";
-  document.getElementById("about18").style.background = "#c9302c";
-  document.getElementById("about19").style.background = "#337ab7";
-  document.getElementById("about20").style.background = "#ffd700";
-  document.getElementById("about21").style.background = "#337ab7";
-  document.getElementById("about22").style.background = "#c9302c";
-  document.getElementById("about23").style.background = "#c9302c";
-  document.getElementById("about24").style.background = "#c9302c";
-  document.getElementById("about25").style.background = "#337ab7";
-  document.getElementById("about26").style.background = "#c9302c";
-  document.getElementById("about27").style.background = "#337ab7";
-  document.getElementById("about28").style.background = "#c9302c";
-  document.getElementById("about29").style.background = "#ffd700";
+  var x = document.getElementById("about");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about1");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about2");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about3");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about4");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about5");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about6");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about7");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about8");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about9");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about10");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about11");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about12");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about13");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about14");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about15");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about16");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about17");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about18");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about19");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about20");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about21");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about22");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about23");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about24");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about25");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about26");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about27");
+  if (x.style.background === "white") {
+    x.style.background = "#c9302c";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about28");
+  if (x.style.background === "white") {
+    x.style.background = "#ffd700";
+  } else {
+    x.style.background = "white";
+  }
+  var x = document.getElementById("about29");
+  if (x.style.background === "white") {
+    x.style.background = "#7cfc00";
+  } else {
+    x.style.background = "white";
+  }
 }
 /*modal_viewer.addEventListener("click", viewModal);
 
